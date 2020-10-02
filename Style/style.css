@@ -1,8 +1,14 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 70%;
+    width: 100%;
 }
 
 .profil {
@@ -15,7 +21,7 @@
 }
 
 #body {
-    width: 70%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     min-height: 200px;
@@ -30,24 +36,50 @@
 .parcourt, .competance, .hobbies {
     width: 33%;
     display: inline-block;    
-    margin: 2px;
+    margin: 20px;
+    background-color: darkgray;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .parcourt {
-    background-color: blue;
+    border: blue solid 4px;    
 }
 
 .competance {
-    background-color: brown;
+    border: brown solid 4px;
 }
 
 .hobbies {
-    background-color: olive;
+    border: olive solid 4px;
+}
+
+#footer {
+    width: 100%;
 }
 
 .contact {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px;
     text-align: center;
+    background-color: darkgray;
+    border: peru solid 4px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+@media only screen and (max-width: 750px) {
+    #body {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parcourt, .competance, .hobbies {
+        width: auto;
+        display: block;    
+        margin: 20px;
+        background-color: darkgray;
+        box-shadow: 10px 10px 5px grey;
+    }
 }
