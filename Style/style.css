@@ -65,6 +65,22 @@ body {
     box-shadow: 10px 10px 5px grey;
 }
 
+li {
+    list-style-type: none;
+}
+
+.parcourt h3 {
+    color: blue;
+}
+
+.competance h3 {
+    color: brown;
+}
+
+.hobbies h3 {
+    color: olive;
+}
+
 @media only screen and (max-width: 750px) {
     #body {
         width: 100%;
