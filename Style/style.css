@@ -118,6 +118,12 @@ li {
 .contact h3 {
     margin-bottom: 0;
     color: peru;
+    width: 100%;
+    display: block;
+}
+
+.global-contact {
+    width: 100%;
 }
 
 form, .contact-info{
@@ -177,6 +183,7 @@ button {
     }
 
     .contact {
+
         flex-direction: column;
     }
 
