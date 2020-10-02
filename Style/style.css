@@ -20,6 +20,26 @@ body {
     display: inline-block;
 }
 
+.present {
+    width: auto;
+    display: flex;
+}
+
+.about, .other {
+    width: 50%;
+    background-color: darkgray;
+    margin: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.about {
+    border: orchid solid 4px;
+}
+
+.other {
+    border: slateblue solid 4px;
+}
+
 #body {
     width: 100%;
     margin-right: auto;
@@ -57,14 +77,6 @@ body {
     width: 100%;
 }
 
-.contact {
-    margin: 20px;
-    text-align: center;
-    background-color: darkgray;
-    border: peru solid 4px;
-    box-shadow: 10px 10px 5px grey;
-}
-
 li {
     list-style-type: none;
 }
@@ -81,7 +93,48 @@ li {
     color: olive;
 }
 
-@media only screen and (max-width: 750px) {
+.contact {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgray;
+    border: peru solid 4px;
+    box-shadow: 10px 10px 5px grey;
+    display: flex;
+    width: auto;
+}
+
+.contact-info {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-area {
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  input, textarea {
+    width: 60%;
+    box-sizing: border-box;
+  }
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+@media only screen and (max-width: 800px) {
     #body {
         width: 100%;
         margin-right: auto;
