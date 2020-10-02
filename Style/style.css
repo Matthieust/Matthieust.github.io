@@ -1,0 +1,53 @@
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+}
+
+.profil {
+    display: inline-block;
+    border-radius: 90%;
+}
+
+#moi {
+    display: inline-block;
+}
+
+#body {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 200px;
+    display: flex;
+    font-size: larger;
+}
+
+#body h3 {
+    text-align: center;
+}
+
+.parcourt, .competance, .hobbies {
+    width: 33%;
+    display: inline-block;    
+    margin: 2px;
+}
+
+.parcourt {
+    background-color: blue;
+}
+
+.competance {
+    background-color: brown;
+}
+
+.hobbies {
+    background-color: olive;
+}
+
+.contact {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
