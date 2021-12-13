@@ -2,11 +2,13 @@ body
 {
     width: 50%;
     margin: auto;
+    font-family: 'montserrat', sans-serif;
+    color: #484848;
 }
 
 header
 {
-    height: 25vh;
+    min-height: 25vh;
     background-color: #11445D;
     color: #FFFFFF;
     padding: 30px 20px;
@@ -29,6 +31,21 @@ h3
     font-size: 1.3em;
     font-family: 'Roboto Mono';
     font-weight: bold;
+    color: #7C8587;
+    text-decoration: underline solid 4px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    letter-spacing: 0.6rem;
+}
+
+aside section:not(:first-child) h3, #right_section section:not(:first-child) h3{
+    margin-top: 2vh;
+}
+
+h4
+{
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 header p
@@ -46,16 +63,50 @@ header p
 
 aside
 {
-    width: 50%;
-    background-color: green;
+    width: 35%;
+    background-color: #FFFFFF;
     vertical-align: top;
+    padding: 2%;
 }
 
 #right_section
 {
-    width: 50%;
+    padding: 2%;
+    width: 65%;
     background-color: #efefef;
 }
 
-#coord
-{}
+#right_section p
+{
+    font-weight: bold;
+}
+
+li
+{
+    list-style: inside disc;
+    margin-left: 7px;
+}
+
+ul ul li
+{
+    list-style: inside circle;
+    margin-left: 20px;
+}
+
+li:not(:last-child)
+{
+    margin-bottom: 5px;
+}
+
+.icone
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.icone img
+{
+    width: 100%;
+    height: auto;
+}
