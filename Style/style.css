@@ -33,13 +33,13 @@ h3
     font-weight: bold;
     color: #7C8587;
     text-decoration: underline solid 4px;
-    margin-bottom: 5px;
+    margin-bottom: 1vh;
     line-height: 1.5;
     letter-spacing: 0.6rem;
 }
 
 aside section:not(:first-child) h3, #right_section section:not(:first-child) h3{
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 
 h4
@@ -66,7 +66,7 @@ aside
     width: 35%;
     background-color: #FFFFFF;
     vertical-align: top;
-    padding: 2%;
+    padding: 2% 0% 2% 2%;
 }
 
 #right_section
@@ -109,4 +109,224 @@ li:not(:last-child)
 {
     width: 100%;
     height: auto;
+}
+
+#fr
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_fr
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 100%, #494F56);
+}
+
+#lab_fr
+{
+    width: 50%;
+}
+
+#en
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_en
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 98%, #494F56 2%);
+}
+
+#lab_en
+{
+    width: 50%;
+}
+
+#ch
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_ch
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 9%, #494F56 9% 91%);
+}
+
+#lab_ch
+{
+    width: 50%;
+}
+
+#htcss
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_htcss
+{
+    height: 15px;
+    width: 40%;
+    background-color: #6CE5E8;
+}
+
+#lab_htcss
+{
+    width: 50%;
+}
+
+#js
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_js
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 90%, #494F56 10%);
+}
+
+#lab_js
+{
+    width: 50%;
+}
+
+#jav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_jav
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 95%, #494F56 5%);
+}
+
+#lab_jav
+{
+    width: 50%;
+}
+
+#sql
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_sql
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 80%, #494F56 80% 20%);
+}
+
+#lab_sql
+{
+    width: 50%;
+}
+
+#cpp
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_cpp
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 90%, #494F56 90% 10%);
+}
+
+#lab_cpp
+{
+    width: 50%;
+}
+
+#rub
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_rub
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 70%, #494F56 70% 30%);
+}
+
+#lab_rub
+{
+    width: 50%;
+}
+
+#pyth
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_pyth
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 70%, #494F56 70% 30%);
+}
+
+#lab_pyth
+{
+    width: 50%;
+}
+
+#php
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+#lvl_bar_php
+{
+    height: 15px;
+    width: 40%;
+    background: linear-gradient(to right, #6CE5E8 80%, #494F56 80% 20%);
+}
+
+#lab_php
+{
+    width: 50%;
 }
