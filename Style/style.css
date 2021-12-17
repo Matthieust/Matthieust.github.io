@@ -1,3 +1,18 @@
+@media screen and (max-width: 1500px)
+{
+    header, div#content
+    {
+        display: none;
+    }
+}
+@media screen and (min-width: 1500px)
+{
+    #mobile_wip
+    {
+        display: none;
+    }
+}
+
 body
 {
     width: 50%;
@@ -24,6 +39,17 @@ header h2
 {
     font-size: 2em;
     font-family: 'Roboto Mono';
+}
+
+#qrcode
+{
+    float: right;
+    width: 15%;
+}
+
+#qrcode img
+{
+    width: 100%;
 }
 
 h3
