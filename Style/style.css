@@ -38,7 +38,8 @@ h3
     letter-spacing: 0.6rem;
 }
 
-aside section:not(:first-child) h3, #right_section section:not(:first-child) h3{
+section:not(:first-child) h3
+{
     margin-top: 1vh;
 }
 
@@ -79,6 +80,12 @@ aside
 #right_section p
 {
     font-weight: bold;
+    margin-bottom: 1%;
+}
+
+ul
+{
+    margin-bottom: 1%;
 }
 
 li
