@@ -336,6 +336,7 @@ li:not(:last-child)
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .flex_aside figure
