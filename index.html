@@ -1,207 +1,255 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="Style/reset.css">
-        <link rel="stylesheet" href="Style/style.css">
-        <title>Matthieu STEMPIN CV</title>
-    </head>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="Style/reset.css" />
+		<link rel="stylesheet" href="Style/style.css" />
+		<title>Matthieu STEMPIN CV</title>
+	</head>
 
-    <body>
-        <div id="mobile_wip"><p>Only desktop version available. Mobile version wip.</p></div>
-        <header>
-            <figure id="qrcode">
-                <img src="/Images/QRcode.png" alt="QRcode">
-            </figure>
-            <h1>MATTHIEU STEMPIN</h1>
-            <h2>Developpeur web full stack junior</h2>
-            <p>A la recherche d'un emplois suite à une reconversion professionnelle. Je suis toujours prêt pour de nouvelles expériences afin d'enrichir mon nouveau bagage de développeur.</p>
-        </header>
-        <div id="content">
-            <aside>
-                <section id="coord">
-                    <h3>COORDONÉES</h3>
-                    <address>
-                        <span class="icone">
-                            <img src="/Images/google-map.svg" alt="icone_adress">
-                        </span> 48 rue Hector BERLIOZ <br/>
-                        44300 Nantes <br/>
-                        <span class="icone">
-                            <img src="/Images/email.svg" alt="icone_mail">
-                        </span> <a href="mailto:stempîn.matthieu@gmail.com">stempin.matthieu@gmail.com</a> <br/>
-                        <span class="icone">
-                            <img src="/Images/phone.svg" alt="icone_phone">
-                        </span> <a href="tel:+33664068909">+33 6 64 06 89 09</a> <br/>
-                        <span class="icone">
-                            <img src="/Images/linkedin.svg" alt="icone_linkedin">
-                        </span> <a href="http://www.linkedin.com/in/matthieu-stempin">/matthieu-stempin/</a> <br/>
-                    </address>
-                </section>
+	<body>
+		<div id="body">
+			<!-- <div id="mobile_wip"><p>Only desktop version available. Mobile version wip.</p></div> -->
+			<header>
+				<div id="left_header">
+					<h1>MATTHIEU STEMPIN</h1>
+					<h2>Developpeur web full stack junior</h2>
+					<p>
+						A la recherche d'un emplois suite à une reconversion
+						professionnelle. Je suis toujours prêt pour de nouvelles expériences
+						afin d'enrichir mon nouveau bagage de développeur.
+					</p>
+				</div>
+				<figure id="qrcode">
+					<img src="/Images/QRcode.png" alt="QRcode" />
+				</figure>
+			</header>
+			<aside>
+				<section>
+					<h3>COORDONÉES</h3>
+					<address>
+						<span class="icone">
+							<img src="/Images/google-map.svg" alt="icone_adress" />
+						</span>
+						<p>
+							48 rue Hector BERLIOZ <br />
+							44300 Nantes
+						</p>
+						<span class="icone">
+							<img src="/Images/email.svg" alt="icone_mail" />
+						</span>
+						<p>
+							<a href="mailto:stempîn.matthieu@gmail.com"
+								>stempin.matthieu@gmail.com</a
+							>
+						</p>
+						<span class="icone">
+							<img src="/Images/phone.svg" alt="icone_phone" />
+						</span>
+						<p><a href="tel:+33664068909">+33 6 64 06 89 09</a></p>
+						<span class="icone">
+							<img src="/Images/linkedin.svg" alt="icone_linkedin" />
+						</span>
+						<p>
+							<a href="http://www.linkedin.com/in/matthieu-stempin"
+								>/matthieu-stempin/</a
+							>
+						</p>
+					</address>
+				</section>
 
-                <section>
-                    <h3>COMPÉTENCES</h3>
-                    <h4>Langues :</h4>
-                    <ul>
-                        <div id="fr">
-                            <li id="lab_fr">Français</li>
-                            <div id="lvl_bar_fr"></div>
-                        </div>
-                        <div id="en">
-                            <li id="lab_en">Anglais</li>
-                            <div id="lvl_bar_en"></div>
-                        </div>
-                        <div id="ch">
-                            <li id="lab_ch">Chinois</li>
-                            <div id="lvl_bar_ch"></div>
-                        </div>
-                    </ul>
-                    <h4>Languages programmation :</h4>
-                    <ul>
-                        <div id="htcss">
-                            <li id="lab_htcss">HTML / CSS</li>
-                            <div id="lvl_bar_htcss"></div>
-                        </div>
-                        <div id="js">
-                            <li id="lab_js">JavaScript</li>
-                            <div id="lvl_bar_js"></div>
-                        </div>
-                        <div id="jav">
-                            <li id="lab_jav">JAVA</li>
-                            <div id="lvl_bar_jav"></div>
-                        </div>
-                        <div id="sql">
-                            <li id="lab_sql">SQL</li>
-                            <div id="lvl_bar_sql"></div>
-                        </div>
-                        <div id="cpp">
-                            <li id="lab_cpp">C / C++</li>
-                            <div id="lvl_bar_cpp"></div>
-                        </div>
-                        <div id="rub">
-                            <li id="lab_rub">Ruby</li>
-                            <div id="lvl_bar_rub"></div>
-                        </div>
-                        <div id="pyth">
-                            <li id="lab_pyth">Python</li>
-                            <div id="lvl_bar_pyth"></div>
-                        </div>
-                        <div id="php">
-                            <li id="lab_php">PHP</li>
-                            <div id="lvl_bar_php"></div>
-                        </div>
-                    </ul>
-                </section>
+				<section>
+					<h3>COMPÉTENCES</h3>
+					<h4>Langues :</h4>
+					<ul>
+						<div class="container_skills">
+							<li class="skill_name">Français</li>
+							<div class="skill_level_100"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">Anglais</li>
+							<div class="skill_level_98"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">Chinois</li>
+							<div class="skill_level_9"></div>
+						</div>
+					</ul>
+					<h4>Languages programmation :</h4>
+					<ul>
+						<div class="container_skills">
+							<li class="skill_name">HTML / CSS</li>
+							<div class="skill_level_100"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">JavaScript</li>
+							<div class="skill_level_90"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">JAVA</li>
+							<div class="skill_level_95"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">SQL</li>
+							<div class="skill_level_80"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">C / C++</li>
+							<div class="skill_level_90"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">Ruby</li>
+							<div class="skill_level_70"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">Python</li>
+							<div class="skill_level_70"></div>
+						</div>
+						<div class="container_skills">
+							<li class="skill_name">PHP</li>
+							<div class="skill_level_80"></div>
+						</div>
+					</ul>
+				</section>
 
-                <section>
-                    <h3>SAVOIR FAIRE</h3>
-                    <h4>Logiciel :</h4>
-                    <ul>
-                        <li>VSCode</li>
-                        <li>IntelliJ</li>
-                        <li>SQL workbench</li>
-                        <li>Postman</li>
-                    </ul>
-                    <h4>Framework :</h4>
-                    <ul>
-                        <li>JQuery</li>
-                        <li>Springboot</li>
-                        <li>Bootstrap</li>
-                        <li>ReactJS</li>
-                    </ul>
-                </section>
+				<section>
+					<h3>SAVOIR FAIRE</h3>
+					<h4>Logiciel :</h4>
+					<ul>
+						<li>VSCode</li>
+						<li>IntelliJ</li>
+						<li>SQL workbench</li>
+						<li>Postman</li>
+					</ul>
+					<h4>Framework :</h4>
+					<ul>
+						<li>JQuery</li>
+						<li>Springboot</li>
+						<li>Bootstrap</li>
+						<li>ReactJS</li>
+					</ul>
+				</section>
 
-                <section>
-                    <h3>SAVOIR ÊTRE</h3>
-                    <div class="flex_aside">
-                        <figure>
-                            <img src="/Images/team.png" alt="team work">
-                        </figure>
-                        <figure>
-                            <img src="/Images/idea.png" alt="idea">
-                        </figure>
-                        <figure>
-                            <img src="/Images/diy.png" alt="DIY">
-                        </figure>
-                        <figure>
-                            <img src="/Images/smart.png" alt="smart">
-                        </figure>
-                        <figure>
-                            <img src="/Images/inde.png" alt="independant">
-                        </figure>
-                    </div>
-                </section>
-            </aside>
-            <section id="right_section">
-                <section>
-                    <h3>FORMATIONS</h3>
-                    <p>Developpeur web et web mobile java - simplon 2020 - 2021</p>
-                    <ul>
-                        <li>HTML / CSS</li>
-                        <li>Java / Springboot</li>
-                        <li>SQL</li>
-                        <li>Javascript / ReactJS</li>
-                    </ul>
-                    <p>OpenclassRoom Certificats :</p>
-                    <ul>
-                        <li>Apprennez à créer votre site web avec HTML5 et CSS3</li>
-                        <li>Concevez votre site web avec PHP et MySQL</li>
-                        <li>Gérez votre code avec Git et GitHub</li>
-                        <li>Découpez et intégrez une maquette</li>
-                        <li>Construisez des microservices</li>
-                    </ul>
-                    <p>EPITECH 2016 - 2018</p>
-                    <ul>
-                        <li>C / C++</li>
-                    </ul>
-                </section>
+				<section>
+					<h3>SAVOIR ÊTRE</h3>
+					<div class="flex_aside">
+						<figure>
+							<img src="/Images/team.png" alt="team work" />
+						</figure>
+						<figure>
+							<img src="/Images/idea.png" alt="idea" />
+						</figure>
+						<figure>
+							<img src="/Images/diy.png" alt="DIY" />
+						</figure>
+						<figure>
+							<img src="/Images/smart.png" alt="smart" />
+						</figure>
+						<figure>
+							<img src="/Images/inde.png" alt="independant" />
+						</figure>
+					</div>
+				</section>
+			</aside>
+			<section id="right_section">
+				<!-- <section>
+					<h3>FORMATIONS</h3>
+					<p>Developpeur web et web mobile java - simplon 2020 - 2021</p>
+					<ul>
+						<li>HTML / CSS</li>
+						<li>Java / Springboot</li>
+						<li>SQL</li>
+						<li>Javascript / ReactJS</li>
+					</ul>
+					<p>OpenclassRoom Certificats :</p>
+					<ul>
+						<li>Apprennez à créer votre site web avec HTML5 et CSS3</li>
+						<li>Concevez votre site web avec PHP et MySQL</li>
+						<li>Gérez votre code avec Git et GitHub</li>
+						<li>Découpez et intégrez une maquette</li>
+						<li>Construisez des microservices</li>
+					</ul>
+					<p>EPITECH 2016 - 2018</p>
+					<ul>
+						<li>C / C++</li>
+					</ul>
+				</section>
 
-                <section>
-                    <h3>EXPÉRIENCE PROFESSIONNELLE</h3>
-                    <p>Developpeur freelance - Stage 2021</p>
-                    <ul>
-                        <li>Mise en place frontend</li>
-                        <li>Création tests unitaire et fonctionnels</li>
-                    </ul>
-                    <p>KOSMOS - Stage 2018</p>
-                    <ul>
-                        <li>Correction test sélénium</li>
-                        <li>Création et amélioration scénarios de tests</li>
-                    </ul>
-                    <p>Laser crea design - 2012 - 2014</p>
-                    <ul>
-                        <li>Responsable impression, découpe et gravure laser</li>
-                        <li>Responsable adjoint CAO / DAO</li>
-                    </ul>
-                    <p>Lyonnaise des eaux - Apprentissage 2010 - 2011</p>
-                    <ul>
-                        <li>Gestion stations épuration / potabilisation d'eau</li>
-                    </ul>
-                    <p>GrDF - apprentissage 2008 - 2010</p>
-                    <ul>
-                        <li>Technicien gaz</li>
-                        <li>Technicien d'intervention d'urgence gaz</li>
-                    </ul>
-                </section>
+				<section>
+					<h3>EXPÉRIENCE PROFESSIONNELLE</h3>
+					<p>Developpeur freelance - Stage 2021</p>
+					<ul>
+						<li>Mise en place frontend</li>
+						<li>Création tests unitaire et fonctionnels</li>
+					</ul>
+					<p>KOSMOS - Stage 2018</p>
+					<ul>
+						<li>Correction test sélénium</li>
+						<li>Création et amélioration scénarios de tests</li>
+					</ul>
+					<p>Laser crea design - 2012 - 2014</p>
+					<ul>
+						<li>Responsable impression, découpe et gravure laser</li>
+						<li>Responsable adjoint CAO / DAO</li>
+					</ul>
+					<p>Lyonnaise des eaux - Apprentissage 2010 - 2011</p>
+					<ul>
+						<li>Gestion stations épuration / potabilisation d'eau</li>
+					</ul>
+					<p>GrDF - apprentissage 2008 - 2010</p>
+					<ul>
+						<li>Technicien gaz</li>
+						<li>Technicien d'intervention d'urgence gaz</li>
+					</ul>
+				</section>
 
-                <section>
-                    <h3>LOISIR</h3>
-                    <p>Hockey subaquatique</p>
-                    <ul>
-                        <li>Championnat de France :</li>
-                        <ul>
-                            <li>D2 D1 : 2011 - 2012 - 2013 <span class="icone"><img src="/Images/gold_med.png" alt="gold medal"></span><span class="icone"><img src="/Images/gold_med.png" alt="gold medal"></span><span class="icone"><img src="/Images/gold_med.png" alt="gold medal"></span></li>
-                            <li>Région : 2012 - 2013 - 2014 <span class="icone"><img src="/Images/gold_med.png" alt="gold medal"></span><span class="icone"><img src="/Images/gold_med.png" alt="gold medal"></span><span class="icone"><img src="/Images/gold_med.png" alt="gold medal"></span></li>
-                        </ul>
-                        <li>Championnat d'Europe 2008 <span class="icone"><img src="/Images/bronze_med.png" alt="bronze medal"></span></li>
-                    </ul>
-                    <p>Impression 3D</p>
-                </section>
-            </section>
-        </div>
-    </body>
-
+				<section>
+					<h3>LOISIR</h3>
+					<p>Hockey subaquatique</p>
+					<ul>
+						<li>Championnat de France :</li>
+						<ul>
+							<li>
+								D2 D1 : 2011 - 2012 - 2013
+								<span class="icone"
+									><img src="/Images/gold_med.png" alt="gold medal" /></span
+								><span class="icone"
+									><img src="/Images/gold_med.png" alt="gold medal" /></span
+								><span class="icone"
+									><img src="/Images/gold_med.png" alt="gold medal"
+								/></span>
+							</li>
+							<li>
+								Région : 2012 - 2013 - 2014
+								<span class="icone"
+									><img src="/Images/gold_med.png" alt="gold medal" /></span
+								><span class="icone"
+									><img src="/Images/gold_med.png" alt="gold medal" /></span
+								><span class="icone"
+									><img src="/Images/gold_med.png" alt="gold medal"
+								/></span>
+							</li>
+						</ul>
+						<li>
+							Championnat d'Europe 2008
+							<span class="icone"
+								><img src="/Images/bronze_med.png" alt="bronze medal"
+							/></span>
+						</li>
+					</ul>
+					<p>Impression 3D</p>
+				</section> -->
+			</section>
+		</div>
+	</body>
 </html>
