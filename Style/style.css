@@ -1,7 +1,20 @@
 @media screen and (max-width: 1500px) {
-	span {
+	span img {
 		display: none;
 	}
+
+	body {
+		font-family: "montserrat", sans-serif;
+	}
+
+	#body {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: auto;
+		color: #484848;
+	}
+
 	header {
 		display: flex;
 		flex-wrap: wrap;
@@ -45,10 +58,158 @@
 
 	header p {
 		margin: 2% 0%;
-		width: 60%;
+		width: 100%;
 		text-align: center;
 	}
+
+	/* START ASIDE */
+
+	aside {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		background-color: #ffffff;
+		/* padding: 2%; */
+	}
+
+	/* START ASIDE ADDRESS */
+	aside section {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	aside h3 {
+		width: 100%;
+		text-align: center;
+	}
+
+	address {
+		display: flex;
+		flex-wrap: wrap;
+		/* justify-content: center; */
+		width: 100%;
+	}
+
+	.postal_address {
+		display: none;
+	}
+
+	.mobile_addr {
+		/* flex-basis: auto; */
+		flex-grow: 1;
+		width: 33%;
+		background-color: #efefef;
+	}
+
+	address .icone {
+		width: 5%;
+	}
+
+	aside section p {
+		width: 95%;
+	}
+
+	.icone img {
+		width: 100%;
+	}
+	/* END ASIDE ADDRESS */
+	/* START ASIDE SKILLS */
+	aside h4 {
+		width: 100%;
+	}
+
+	aside ul {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.container_skills {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: stretch;
+		width: 33%;
+	}
+
+	.skill_name {
+		width: 100%;
+		text-align: center;
+	}
+
+	.skill_level_100 {
+		height: 15px;
+		width: 100%;
+		background-color: #6ce5e8;
+	}
+
+	.skill_level_98 {
+		height: 15px;
+		width: 100%;
+		background: linear-gradient(to right, #6ce5e8 98%, #494f56 2%);
+	}
+
+	.skill_level_95 {
+		height: 15px;
+		width: 100%;
+		background: linear-gradient(to right, #6ce5e8 95%, #494f56 5%);
+	}
+
+	.skill_level_90 {
+		height: 15px;
+		width: 100%;
+		background: linear-gradient(to right, #6ce5e8 90%, #494f56 10%);
+	}
+
+	.skill_level_80 {
+		height: 15px;
+		width: 100%;
+		background: linear-gradient(to right, #6ce5e8 80%, #494f56 80% 20%);
+	}
+
+	.skill_level_70 {
+		height: 15px;
+		width: 100%;
+		background: linear-gradient(to right, #6ce5e8 70%, #494f56 70% 30%);
+	}
+
+	.skill_level_9 {
+		height: 15px;
+		width: 100%;
+		background: linear-gradient(to right, #6ce5e8 9%, #494f56 9% 91%);
+	}
+
+	#knowledge li {
+		width: 33%;
+		flex-grow: 1;
+		text-align: center;
+	}
+
+	#personality {
+		display: none;
+	}
+
+	/* END ASIDE SKILLS 
+	/* START ASIDE KNOWLEDGE 
+	.flex_aside {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.flex_aside figure {
+		width: 30%;
+	}
+
+	.flex_aside figure img {
+		width: 100%;
+	} */
+	/* END ASIDE KNOWLEDGE */
+	/* END ASIDE */
 }
+
 @media screen and (min-width: 1500px) {
 	body {
 		font-family: "montserrat", sans-serif;
