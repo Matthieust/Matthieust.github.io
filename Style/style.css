@@ -101,8 +101,13 @@
 		display: none;
 	}
 
+	address a {
+		flex-grow: 1;
+		width: 33%;
+		background-color: #efefef;
+	}
+
 	.mobile_addr {
-		/* flex-basis: auto; */
 		flex-grow: 1;
 		width: 33%;
 		background-color: #efefef;
@@ -114,10 +119,6 @@
 	.mobile_num p,
 	.lkd_address span,
 	.lkd_address p {
-		display: none;
-	}
-
-	.email_address p {
 		display: none;
 	}
 
