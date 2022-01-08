@@ -24,6 +24,7 @@
 		background-color: #11445d;
 		color: #ffffff;
 		padding: 30px 20px;
+		border: solid 1px #ffffff;
 	}
 
 	#left_header {
@@ -79,16 +80,21 @@
 		flex-wrap: wrap;
 	}
 
-	aside h3 {
+	aside h3,
+	#right_section h3 {
 		width: 100%;
 		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	address {
 		display: flex;
 		flex-wrap: wrap;
-		/* justify-content: center; */
+		justify-content: center;
 		width: 100%;
+		height: 10vh;
 	}
 
 	.postal_address {
@@ -102,12 +108,38 @@
 		background-color: #efefef;
 	}
 
-	address .icone {
-		width: 5%;
+	.email_address span,
+	.email_address p,
+	.mobile_num span,
+	.mobile_num p,
+	.lkd_address span,
+	.lkd_address p {
+		display: none;
 	}
 
-	aside section p {
-		width: 95%;
+	.email_address p {
+		display: none;
+	}
+
+	.email_address {
+		background-image: url("/Images/email.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+
+	.mobile_num {
+		background-image: url("/Images/phone.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+
+	.lkd_address {
+		background-image: url("/Images/linkedin.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
 	}
 
 	.icone img {
@@ -131,6 +163,7 @@
 		justify-content: center;
 		align-items: stretch;
 		width: 33%;
+		padding: 1%;
 	}
 
 	.skill_name {
@@ -139,43 +172,43 @@
 	}
 
 	.skill_level_100 {
-		height: 15px;
+		height: 2vh;
 		width: 100%;
 		background-color: #6ce5e8;
 	}
 
 	.skill_level_98 {
-		height: 15px;
+		height: 2vh;
 		width: 100%;
 		background: linear-gradient(to right, #6ce5e8 98%, #494f56 2%);
 	}
 
 	.skill_level_95 {
-		height: 15px;
+		height: 2vh;
 		width: 100%;
 		background: linear-gradient(to right, #6ce5e8 95%, #494f56 5%);
 	}
 
 	.skill_level_90 {
-		height: 15px;
+		height: 2vh;
 		width: 100%;
 		background: linear-gradient(to right, #6ce5e8 90%, #494f56 10%);
 	}
 
 	.skill_level_80 {
-		height: 15px;
+		height: 2vh;
 		width: 100%;
 		background: linear-gradient(to right, #6ce5e8 80%, #494f56 80% 20%);
 	}
 
 	.skill_level_70 {
-		height: 15px;
+		height: 2vh;
 		width: 100%;
 		background: linear-gradient(to right, #6ce5e8 70%, #494f56 70% 30%);
 	}
 
 	.skill_level_9 {
-		height: 15px;
+		height: 2vh;
 		width: 100%;
 		background: linear-gradient(to right, #6ce5e8 9%, #494f56 9% 91%);
 	}
@@ -184,14 +217,11 @@
 		width: 33%;
 		flex-grow: 1;
 		text-align: center;
+		margin: 2%;
 	}
 
-	#personality {
-		display: none;
-	}
-
-	/* END ASIDE SKILLS 
-	/* START ASIDE KNOWLEDGE 
+	/* END ASIDE SKILLS */
+	/* START ASIDE KNOWLEDGE */
 	.flex_aside {
 		width: 100%;
 		display: flex;
@@ -200,14 +230,88 @@
 	}
 
 	.flex_aside figure {
-		width: 30%;
+		width: 10%;
 	}
 
 	.flex_aside figure img {
 		width: 100%;
-	} */
+	}
 	/* END ASIDE KNOWLEDGE */
 	/* END ASIDE */
+	/* START RIGHT SECTION */
+
+	#right_section {
+		display: flex;
+		flex-wrap: wrap;
+		/* align-content: flex-start; */
+		/* padding: 2%; */
+		width: 100%;
+		/* background-color: #efefef; */
+	}
+
+	#right_section section {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#right_section h3 {
+		width: 100%;
+		text-align: center;
+		background-color: #11445d;
+	}
+
+	h4 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #efefef;
+		height: 4vh;
+		padding: 1%;
+	}
+
+	#right_section p {
+		width: 100%;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #efefef;
+		padding: 1%;
+	}
+
+	#right_section ul {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	#right_section li {
+		width: 50%;
+		/* text-align: center; */
+		flex-grow: 1;
+		padding: 2%;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* END RIGHT SECTION */
+
+	/* START TITLES */
+	h3 {
+		font-size: 1.3rem;
+		font-family: "Roboto Mono";
+		font-weight: bold;
+		color: #7c8587;
+		background-color: #11445d;
+		height: 5vh;
+	}
+
+	/* h4 {
+		font-weight: bold;
+		margin-bottom: 2%;
+	} */
+	/* END TITLES */
 }
 
 @media screen and (min-width: 1500px) {
@@ -285,7 +389,7 @@
 		width: 100%;
 	}
 
-	address {
+	address div {
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
