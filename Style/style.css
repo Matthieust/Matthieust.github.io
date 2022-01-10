@@ -267,18 +267,22 @@
 		align-items: center;
 		justify-content: center;
 		background-color: #efefef;
+		color: #11445d;
+		font-weight: bold;
 		height: 4vh;
-		padding: 1%;
+		padding: 2%;
 	}
 
 	#right_section p {
+		color: #11445d;
+		font-weight: bold;
 		width: 100%;
 		text-align: center;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background-color: #efefef;
-		padding: 1%;
+		padding: 2%;
 	}
 
 	#right_section ul {
@@ -289,7 +293,7 @@
 
 	#right_section li {
 		width: 50%;
-		/* text-align: center; */
+		text-align: center;
 		flex-grow: 1;
 		padding: 2%;
 		display: flex;
